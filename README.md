@@ -1,3 +1,3 @@
 ### fizmat_cpp
 
-##variant 6
+## variant 6
