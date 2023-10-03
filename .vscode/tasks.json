@@ -10,6 +10,7 @@
                 "${file}",
                 "-o",
                 "${fileDirname}\\bin\\${fileBasenameNoExtension}.exe"
+                
             ],
             "options": {
                 "cwd": "${fileDirname}"
