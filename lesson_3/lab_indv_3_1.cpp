@@ -5,18 +5,19 @@ using namespace std;
 
 int main()
 {
-    int i=2; // початкове значення параметру
-    float b,E=0.001; // точність
-    double S=0; // суматор
-    
-    do // початок чиклу
+    int i=1;
+    float b,E=0.001;
+    double S=0;
+
+    do 
     {
-        b = sin(log(i)/pow(i,3)); // наступний елемент суми
-        S = S + b; // додаємо до суми
-        i++; // наступне значення параметру
+        b = 1 / (pow(i, 2) + pow(sin(i), 2)); 
+        S = S + b; 
+        i++; 
     }
-    while (b > E); // поки не досягли точність обчисленя
-    cout << S;
+    while (b > E); 
+    cout << "S = " << S;
 
     return 0;
+
 }
