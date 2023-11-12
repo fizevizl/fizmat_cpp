@@ -17,12 +17,11 @@ main ()
 
     for (i=0;i<n;i++)
     {
-        // for (j=0;j<n; j++)
         for (j=n-1;j>=0; j--)
         {
-            if (a[i][j] == 0 )
+            if (pa[i][j] == 0 )
             {
-             a[i][j] = 5;   
+             pa[i][j] = 5;   
              break;
             }
         }
